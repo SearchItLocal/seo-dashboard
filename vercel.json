@@ -1,8 +1,8 @@
 {
-  "version": 2,
-  "experimentalServices": {
-    "frontend": {
-      "entrypoint": "frontend/package.json"
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
     }
-  }
+  ]
 }
